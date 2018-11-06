@@ -1,0 +1,80 @@
+body{
+    background-color: #a09f9f; 
+    font-family: serif; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    border: 10px #885252 solid;
+    background-color: #ff001c;
+    padding: 5;
+    width: 950px;
+    background-color: #67a0d0;
+    margin: auto;
+    margin-top: 50px;
+    float:none;
+}
+
+/* layout header as a banner */
+header{
+    background-color: #2e2d2d;
+    color: #FFF;
+    padding: 40px;
+    margin: auto;
+    padding-left: 60px;
+}
+header img{
+    width: 800px;
+    height: 230px;
+}
+
+/*remove extra space around h1 in the header*/
+header h1{
+    margin: 0.2;
+}
+
+/*make main content roughly 2/3 with left column */
+#mainContent{
+    width: 600px;  /* Also when removed goes back to normal aka back to normal top/bottom page */
+    float: right;  /* <---- */
+    padding-left: 35px;
+    padding-right: 39px;
+    border-right: 4px solid #4d4c4c;
+    background-color: white;
+}
+/* make side bar the left column (Orion did right)(To put it to the right, id make it float left above) */
+#sideBar{
+    width: 220px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* use footer to tie the overall esign together */
+#mainFooter{
+    clear: both;
+    background-color: #2e2d2d;
+    color: #FFF;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.imgWithText{
+    width: 120px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center
+        
+}
+
+h2{
+    clear: both;
+}
